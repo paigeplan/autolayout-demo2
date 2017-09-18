@@ -10,13 +10,10 @@ import UIKit
 
 class MyViewController: UIViewController {
 
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var myView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-       
-    
+        
     }
 
     override func didReceiveMemoryWarning() {

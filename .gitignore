@@ -1,0 +1,50 @@
+st login: Tue Sep 19 00:01:12 on ttys003
+
+~/Desktop/stopwatch  master ✔
+» cd ..
+
+~/Desktop
+» ls
+overview.mov stopwatch
+
+~/Desktop
+» cd Desktop
+cd: no such file or directory: Desktop
+
+~/Desktop                          1 ⚡
+» ls
+overview.mov stopwatch
+
+~/Desktop
+» cd ..
+
+
+~
+» cd Downloads/New\ Folder\ With\ Items/ios-decal-hw2
+
+~/Downloads/New Folder With Items/ios-decal-hw2  master ✗
+» subl .gitignore
+
+~/Downloads/New Folder With Items/ios-decal-hw2  master ✗
+» vim .gitignore
+
+~/Downloads/New Folder With Items/ios-decal-hw2  master ✗
+*.DS_Store
+## User settings
+xcuserdata/
+*.xcuserstate
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+".gitignore" 20L, 405C
